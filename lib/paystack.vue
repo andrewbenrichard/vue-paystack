@@ -49,12 +49,7 @@ export default defineComponent({
             type: String,
             required: true,
         },
-        channels: {
-            type: Array,
-            default:()=> {
-                return ["card", "bank"];
-            },
-        },
+        channels: {},
         accessCode: {
             type: String,
             default: "",
